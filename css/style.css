@@ -106,12 +106,6 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 10px 0;
   }
 }
-@media(max-width:991.98px){
-  img{
-    width:90%;
-    align-items: center;
-  }
-}
 
 
 /*===================== Hero section ======================*/
@@ -119,13 +113,24 @@ h1,h2,h3,h4,h5,h6,p{
 .about-img{
  margin-left: -100px;
  right: -60px;
+ display: flex;
  
+}
+.home-img{
+  display: flex;
+  align-items: center;
 }
 img{
   border-radius: 40%;
   text-align: center;
   border: 3px solid white;
-  /* position: absolute; */
+ 
+}
+@media all and (max-width:1000px){
+  img{
+    width:90%;
+    align-items: center;
+  }
 }
 
 .display-1{
