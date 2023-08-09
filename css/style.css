@@ -20,12 +20,20 @@ html {
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
   font-size: 1rem;
   font-weight: 400;
+  margin: 0px;
+  padding: 0px;
   line-height: 1.5;
   color: #160ef3;
   text-align: left;
   background-color: #ffffff;
+  overflow-x: hidden;
+
 }
  
 a {
